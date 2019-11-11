@@ -1,0 +1,96 @@
+.container-fluid{
+    width: 100%;
+    padding-right:15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4f6fa;
+}
+.bg-header{
+    background-color: #013056;
+}
+.row{
+    color: #caddea;
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+.live a{
+    text-transform: uppercase;
+    position: relative;
+    color: #caddea;
+    text-decoration: none;
+}
+.line{
+    padding: 0;
+    margin: 0;
+}
+.thin{
+    font-family: Roboto-Thin;
+}
+.nav{
+    background-color: #1b7fd0;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+}
+.list li{
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    text-transform: uppercase;
+    list-style-type: none;
+    color: #fff;
+}
+.list a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 35px;
+}
+.list a:hover{
+    background-color: #caddea;
+}
+.list a:hover{
+    text-decoration: none;
+    color: #1b7fd0;
+}
+.burger{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #fff;
+    position: relative;
+    top:24px;
+}
+.burger::before{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #fff;
+    position: relative;
+    top:9px;
+}
+.burger::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #fff;
+    position: relative;
+    top:-12px;
+}
+.big{
+        display: block;
+        width: 70px;
+        height: 3px;
+        background-color: #fff;
+        position: absolute;
+        top: 20px;
+}

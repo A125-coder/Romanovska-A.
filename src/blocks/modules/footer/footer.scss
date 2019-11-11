@@ -1,0 +1,72 @@
+.bg-footer{
+    background-color: #013056;
+}
+.panel{
+    display: flex;
+    flex-direction: row;
+}
+.three{
+    padding: 10px 0;
+}
+.text a{
+    color: #caddea;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    text-decoration: none;
+}
+.text a:hover{
+    color: #1b7fd0;
+}
+.hr{
+    height: 2px;
+    background-color: #caddea;
+    position: relative;
+}
+.circle2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #013056;
+    font-family: Roboto-Bold;
+    font-size: 22px;
+    text-align: center;
+    position: absolute;
+    top: -32px;
+    left: 540px;
+    display: block;
+}
+.list2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+}
+.list2 li{
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    text-transform: uppercase;
+    list-style-type: none;
+    color: #fff;
+    align-self: center;
+}
+.list2 a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 35px;
+}
+.list2 a:hover{
+    color: #1b7fd0;
+}
+.col3{
+    padding-bottom: 100px;
+}
+.foot{
+    color: #caddea;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 10px;
+}

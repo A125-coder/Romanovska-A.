@@ -1,0 +1,88 @@
+.body{
+    background-color: #e2eaf3;
+}
+.banner img{
+    position: absolute;
+    right: -100px;
+    z-index: -1;
+}
+.logo{
+    padding-top: 30px;
+}
+h1{
+    background-color: #caddea;
+    color: #1b7fd0;
+    text-transform: uppercase;
+    font-family: Roboto-Bold;
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+.logo .ul{
+    list-style-type: none;
+    color: #000;
+}
+.logo li{
+    position: relative;
+    line-height: 30px;
+}
+.logo li::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #1b7fd0;
+    position: absolute;
+    top: 10px;
+    left: -23px;
+}
+.logo h3{
+        font-size: 22px;
+        font-family: Roboto-Bold;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        margin:20px 0 10px 40px;
+}
+button{
+    margin:10px 20px;
+    width: 40%;
+    font-family: Roboto-Bold;
+}
+#triangle-topleft{
+    width: 0; 
+    height: 0;
+    border-top: 50px solid #caddea;
+    border-right: 50px solid transparent;
+    position: absolute;
+    top:50px;
+    left: 0;
+    }
+    #triangle-shadow{
+    width: 0; 
+    height: 0;
+    border-top: 50px solid #9c9c9c;
+    border-right: 50px solid transparent;
+    position:absolute;
+    bottom: -49px;
+    }
+    .tri{
+        position: relative;
+        height: 100px;
+        margin-top: 30px;
+    }
+    .triangle,.name{
+        height: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .triangle{
+        background-color: #9c9c9c;
+        height: 50px;
+        top: 12px;
+        left: 6px;
+        filter: blur(6px);
+    }
